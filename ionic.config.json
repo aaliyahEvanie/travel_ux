@@ -1,0 +1,7 @@
+{
+  "name": "tripco-assessment",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
