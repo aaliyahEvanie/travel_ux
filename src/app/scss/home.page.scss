@@ -33,6 +33,20 @@ ion-icon {
 ion-header {
   background-color: #DCDCDC;
 }
+.logo{
+  height: 60px;
+}
+
+.md,
+.ios,
+.wp {
+ page-home {
+   ion-header {
+        height: 40px;//by default 56px
+    }
+ }
+}
+
 
 .slogan {
   font-size: small;

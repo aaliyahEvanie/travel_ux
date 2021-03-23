@@ -2,26 +2,27 @@
 <!-- Header -->
 <ion-header class="toolbar-home">
   <ion-toolbar style="background-color: #DCDCDC;">
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
     <ion-grid>
       <ion-row>
-        <ion-col size-md="3" class="mobileHide">
+        <ion-col size-md="3">
+          <ion-buttons >
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
         </ion-col>
-        <ion-col size-md="6" >
-            <img src="../assets/logo.svg">  
+        <ion-col size-md="6" style="text-align: center;">
+          <img class="logo" src="../assets/logo.svg">  
           <ion-grid class="mobileHide">
             <ion-row>
-              <ion-col size-md="4">
+              <ion-col size-md="3"></ion-col>
+              <ion-col size-md="2">
                 <ion-icon name="home"></ion-icon>
                 <ion-label class="slogan">LEKKE PLEKKE</ion-label>
               </ion-col>
-              <ion-col size-md="4">
+              <ion-col size-md="2">
                 <ion-icon name="cash"></ion-icon>
                 <ion-label class="slogan">LEKKE PRYSE</ion-label>
               </ion-col>
-              <ion-col size-md="4">
+              <ion-col size-md="2">
                 <ion-icon name="key"></ion-icon>
                 <ion-label class="slogan">LEKKE VEILIG</ion-label> 
               </ion-col>
@@ -36,9 +37,6 @@
       </ion-row>
     </ion-grid>  
   </ion-toolbar>
-</ion-header>
-<!-- SubHeader -->
-<ion-content [fullscreen]="true">
   <!-- SearchBar and Filter -->
   <ion-grid  class="searchBar">
     <!-- SearchBarHeader -->
@@ -122,8 +120,15 @@
       </button>
     </ion-col>
   </ion-row> 
+</ion-header>
+<!-- SubHeader -->
+
+<ion-content [fullscreen]="true">
+
+
   <!-- Body -->
   <ion-grid >
+    
     <ion-row >
       <ion-col size-md="2" class="mobileHide"></ion-col>
       <!-- Map visible on Website -->
@@ -270,39 +275,34 @@
 <ion-footer class="mobileHide">
   <ion-toolbar>
     <ion-grid>
-      <ion-row>
+      <ion-row style="margin-bottom: 20px;">
         <ion-col size-md="6"></ion-col>
         <ion-col size-md="6">
-          <ion-label style="color: #ec772d; font-weight: bold;">Volg</ion-label>  
-          <img style="height: 40px" src="../assets/logo.svg"> 
+         <div style="display: flex; position: absolute;">
+            <ion-label style="color: #ec772d; font-weight: bold;">Volg</ion-label>  
+            <img style="height: 40px" src="../assets/logo.svg"> 
+            <ion-button size="medium" color="primary-trans" fill="clear">
+              <ion-icon name="logo-twitter"></ion-icon>
+              </ion-button>
+              <ion-button size="medium" color="primary-trans" fill="clear">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </ion-button>
+            <ion-button size="medium" color="primary-trans" fill="clear">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </ion-button>
+            <ion-button size="medium" color="primary-trans" fill="clear">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </ion-button>
+            <ion-button size=small fill="outline">
+              <ion-icon name="logo-apple"></ion-icon>
+              <ion-icon name="logo-google"></ion-icon>
+              <ion-label>Laai die app af</ion-label>
+            </ion-button>
+           </div> 
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col size-md="6"></ion-col>
-        <ion-col size-md="4">
-         <ion-button size="medium" color="primary-trans" fill="clear">
-           <ion-icon name="logo-twitter"></ion-icon>
-          </ion-button>
-          <ion-button size="medium" color="primary-trans" fill="clear">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </ion-button>
-         <ion-button size="medium" color="primary-trans" fill="clear">
-          <ion-icon name="logo-instagram"></ion-icon>
-         </ion-button>
-         <ion-button size="medium" color="primary-trans" fill="clear">
-          <ion-icon name="logo-pinterest"></ion-icon>
-         </ion-button>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size-md="6"></ion-col>
-        <ion-col size-md="4">
-          <ion-button size=small fill="outline">
-            <ion-icon name="logo-apple"></ion-icon>
-            <ion-icon name="logo-google"></ion-icon>
-            <ion-label>Laai die app af</ion-label>
-          </ion-button>
-        </ion-col>
+        <ion-col size="12"></ion-col>
       </ion-row>
     </ion-grid>
   </ion-toolbar>
