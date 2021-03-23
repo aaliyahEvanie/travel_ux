@@ -1,0 +1,182 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+ion-icon {
+  color: #ec772d;
+}
+
+ion-header {
+  background-color: #DCDCDC;
+}
+
+.slogan {
+  font-size: small;
+}
+
+.mobileHide{
+  display: inline;
+  
+}
+@media only screen and (min-device-width: 220px) and (max-device-width: 540px) {
+  .mobileHide{
+    display: none;
+  } 
+  .searchBar{
+    border-radius: 10px;
+    margin: 15px 10px 10px 10px;
+  }
+  .filterBar{
+    display: none;
+  }
+  .mobileShow{
+    visibility: visible;
+    border-radius: 5px;
+  }
+  .mobilePrice{
+    background-color: #ec772d;
+    color: #ffffff;
+  }
+
+  .mobileSubtext{
+    font-size: small;
+    text-align: end;
+  }
+  .mobileFilter{
+    background-color: #ffffff;
+    border: solid;
+    border-radius: 10px;
+    border-color: #5A5B5D;
+    display: inline-flex;
+    height: 40px ;
+  }
+  .mobileFilterButtons{
+    background-color: #ffffff;
+    color: #ec772d;
+    border-color: #ec772d;
+    border-radius: 10px;
+    border: solid;
+  }
+  .mobileShowMore{
+    height: 20px;
+  }
+  .textDescription {
+    max-height: 3.6em;
+    line-height: 1.8em;
+    height: 75%;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    }
+}
+.searchBar{
+  background-color: #ec772d;
+  color: #ffffff;
+}
+
+@media only screen and (min-device-width: 541px){
+  .mobileShow{
+    display: none;
+  }
+}
+
+.locationHeader{
+  font-weight: bold;
+}
+
+.filterBar{
+  border-radius: 10px;
+  background-color: #DCDCDC;
+}
+
+.filterBarBoxes{
+  border-color: #5A5B5D;
+  border-style: solid;
+  border-radius: 10px;
+  color: #5A5B5D;
+  background-color: #ffffff;
+}
+
+.cardDesign{
+  border-radius: 10px;
+  background-color: #DCDCDC;
+  width: 100%;
+}
+
+#mapId{
+  border: solid;
+  border-radius: 10px;
+  border-color: #DCDCDC;
+}
+.image_container {
+  position: relative;
+  text-align: center;
+  color: white;;
+}
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  height: 15%;
+  background-color: #ffffff;
+  color: #ec772d;
+  border-radius: 10px;
+  border-color: #ec772d;
+  border-style: solid;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.swiper-slide img {
+  border-radius: 10px;
+}
+
+.bookingTitle{
+  color: #ec772d;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.priceStyle {
+  text-align: end;
+}
+.item-native{
+  background-color: transparent  !important;
+}
+.moreButton{
+  background-color: transparent;
+  float: right;
+  position: absolute; 
+  display: flex; 
+  right: 0px;
+  color: #ec772d;
+}

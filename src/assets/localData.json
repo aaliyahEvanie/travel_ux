@@ -1,0 +1,146 @@
+{
+    "hotelData" : 
+    [
+        { "title": "Ocean View", 
+          "subtitle":"Gastehuis in Kampsbaai", 
+          "description": "Ocean View House is n luukse gastehuis in Bakoven, 1,3 km vanaf die gewilde Kampsbaaistrand",
+          "price": "R1 835",
+          "premium": "yes",
+          "rating": 5,
+          "reviewCount": 10,
+          "images": [
+            {"url": "../../assets/OceanView/1.jpeg"}, 
+            {"url": "../../assets/OceanView/2.jpeg"}, 
+            {"url": "../../assets/OceanView/3.jpeg"}, 
+            {"url": "../../assets/OceanView/4.jpeg"}
+          ],
+          "extras": [
+              {
+                "title": "Wifi",
+                "icon": "wifi"
+              },
+              {
+                "title": "Veilige Parkeering",
+                "icon": "car"
+              },
+              {
+                "title": "Swembad",
+                "icon": "water"
+              }
+          ] 
+        },
+        { "title": "42 On Strathmore", 
+          "subtitle":"Selfsorg in Kampsbaai " , 
+          "description":"42 On Strathmore bied selfsorgverblyf in Kampsbaai, Kaapstad. Die dubbelverdieping bied slaapplek vir 10",
+          "price": "R9 700",
+          "premium": "no",
+          "rating": 4.5,
+          "reviewCount": 58,
+         "images": [
+          {"url": "../../assets/42OnStrathmore/1.jpeg"}, 
+          {"url": "../../assets/42OnStrathmore/2.jpeg"}, 
+          {"url": "../../assets/42OnStrathmore/3.jpeg"}, 
+          {"url": "../../assets/42OnStrathmore/4.jpeg"}
+          ],
+          "extras": [
+              {
+                "title": "Wifi",
+                "icon": "wifi"
+              },
+              {
+                "title": "Veilige Parkeering",
+                "icon": "car"
+              },
+              {
+                "title": "Swembad",
+                "icon": "water"
+              }
+          ] 
+        },
+        { "title": "Atlantic Pearl", 
+          "subtitle":"Hotel in Kampsbaai " , 
+          "description": "Camps Bay Retreat is n luukse boetiekhotel in Kampsbaai, n buurt in Kaapstad",
+          "price": "R2 340",
+          "premium": "no",
+          "rating": 3.8,
+          "reviewCount": 0,
+         "images": [
+          {"url": "../../assets/AtlanticPearl/1.jpeg"}, 
+          {"url": "../../assets/AtlanticPearl/2.jpeg"}, 
+          {"url": "../../assets/AtlanticPearl/3.jpeg"}, 
+          {"url": "../../assets/AtlanticPearl/4.jpeg"} 
+          ],
+          "extras": [
+          
+              {
+                "title": "Wifi",
+                "icon": "wifi"
+              },
+              {
+                "title": "Veilige Parkeering",
+                "icon": "car"
+              },
+              {
+                "title": "Swembad",
+                "icon": "water"
+              }
+          ] 
+        },
+        { "title": "Camps Bay Retreat", 
+          "subtitle":"Selfforg in Kampsbaai " ,  
+          "description": "Atlantic Pearl is in Kampsbaai en bied n panoramiese uitsig op die berg en oor die see.",
+          "price": "R2 340",
+          "premium": false,
+          "rating": 0,
+          "reviewCount": 0,
+         "images": [
+          {"url": "../../assets/CampsBayREtreat/1.jpeg"}, 
+          {"url": "../../assets/CampsBayREtreat/2.jpeg"}, 
+          {"url": "../../assets/CampsBayREtreat/3.jpeg"}, 
+          {"url": "../../assets/CampsBayREtreat/4.jpeg"} 
+          ],
+          "extras": [
+              {
+                "title": "Wifi",
+                "icon": "wifi"
+              },
+              {
+                "title": "Veilige Parkeering",
+                "icon": "car"
+              },
+              {
+                "title": "Swembad",
+                "icon": "water"
+              }
+          ] 
+        },
+        { "title": "Finchley Guest House", 
+          "subtitle":"Gastehuis in Kampsbaai " , 
+          "description": "Finchley Guesthouse is in Kampsbaai geleë en het 6 sonnige en suite-kamers waaruit jy kan kies",
+          "price": "R2 000",
+          "premium": "no",
+          "rating": 0,
+          "reviewCount": 0,
+         "images": [
+          {"url": "../../assets/FinchleyGuestHouse/1.jpeg"}, 
+          {"url": "../../assets/FinchleyGuestHouse/2.jpeg"}, 
+          {"url": "../../assets/FinchleyGuestHouse/3.jpeg"}, 
+          {"url": "../../assets/FinchleyGuestHouse/4.jpeg"}
+          ],
+          "extras": [
+              {
+                "title": "Wifi",
+                "icon": "wifi"
+              },
+              {
+                "title": "Veilige Parkeering",
+                "icon": "car"
+              },
+              {
+                "title": "Swembad",
+                "icon": "water"
+              }
+          ] 
+        }
+      ]    
+    }
